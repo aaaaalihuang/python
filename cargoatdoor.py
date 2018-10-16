@@ -25,13 +25,10 @@ for i in range(0,100000):
     else:
         host=6-player-car
 
-
     if car==player:
         count1+=1
 
     if (6-host-player)==car:
         count2+=1
-
-
 
 print(f"不换猜中的次数为{count1},换了猜中的次数为{count2}")
